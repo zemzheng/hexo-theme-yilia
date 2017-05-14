@@ -1,15 +1,17 @@
 # Header
 
-menu:
-  主页: /
-  随笔: /tags/随笔/
+menu :
+  主页  : /
+  js    : /tags/js/
+  vim   : /tags/vim/
+  shell : /tags/shell/
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/zemzheng"
+  # weibo: "#"
+  # rss: "#"
+  # zhihu: "#"
   #qq: "#"
   #weixin: "#"
   #jianshu: "#"
@@ -45,7 +47,7 @@ open_in_new: false
 # 请在需要打赏的文章的md文件头部，设置属性reward: true
 
 # 打赏基础设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 2
+reward_type: 0
 # 打赏wording
 reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
@@ -59,7 +61,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar:
+avatar : /img/avatar-150x150.jpg
 
 #是否开启分享
 share_jia: true
@@ -103,11 +105,6 @@ smart_menu:
   aboutme: '关于我'
 
 friends:
-  友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
+  game: http://game.ziey.me
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 毕业于华南理工大学SCUT<br/>就职于Tencent.IBG<br/>前端开发
