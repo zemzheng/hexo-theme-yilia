@@ -57,7 +57,7 @@ weixin:
 
 # Miscellaneous
 baidu_analytics: ''
-google_analytics: ''
+google_analytics: 'UA-98276972-1'
 favicon: /favicon.png
 
 #你的头像url
@@ -76,8 +76,8 @@ duoshuo: false
 wangyiyun: false
 
 #3、畅言
-changyan_appid: false
-changyan_conf: false
+changyan_appid: cyt155Tu8
+changyan_conf: prod_5c0d87a13821feb670352ec7e9817f99
 
 #4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
 disqus: false
